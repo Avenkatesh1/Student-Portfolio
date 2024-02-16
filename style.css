@@ -206,13 +206,13 @@ header{
 .categories_right{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
+    gap: 15px;
 }
 
 .category{
     background: var(--color-bg2);
-    padding: 2rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     transition: var(--transition); 
 }
 
@@ -504,4 +504,9 @@ header{
         color: var(--color-white);
 
     }
+}
+.button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: #000;
 }
